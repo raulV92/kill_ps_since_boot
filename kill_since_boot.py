@@ -57,8 +57,8 @@ def kill_ps(ps_to_kill):
 
 if __name__=='__main__':
     boot_data=get_boot_process()
-    print(boot_data.keys())
-    print(len(boot_data))
+    #print(boot_data.keys())
+    #print(len(boot_data))
     current_ps=get_current_process()
     ps_to_kill={}
     for ps in current_ps.keys():

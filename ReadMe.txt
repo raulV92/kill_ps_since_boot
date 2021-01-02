@@ -3,12 +3,11 @@ ReadMe:
 This scripts atempts to fix the issue that the computer hangs in the shut down process.
 
 This issue has happened to me and been reported on MX Linux forums.
-Making some testings I came to the conclusion that some processes running in the background might cause this to happen
-because when I turn on the computer and the shut it off after a quick session it shuts down without problems
+Making some testings I came to the conclusion that some processes running in the background might cause this to happen. When I turn on the computer and the shut it off after a quick session it shuts down without problems, logging off and then shutting down the computer works at times
 so the logic behind this is ti kill every process that was started by the user after the initial login to the system
 
 so first step:
-firt thing afer loging in to the session run the command:
+first thing afer loging in to the session run the command:
 $ ps -u $USER > boot_ps.txt
 
 this will create "boot_ps.txt" in the current folder (most probably "home")
