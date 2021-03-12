@@ -1,6 +1,6 @@
 ## kill every process created after initial boot:
 # Note:
-# Kill statements commented in this script were used to debug during the making of this
+# Print statements commented in this script were used to debug during the making of this
 # You can uncomment them to have a better undestanding of what this is doing
 
 import os
